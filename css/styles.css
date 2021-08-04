@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+
+/* color declaration */
+:root {
+  --primary-color: #262a53;
+  --secondary-color: #ffa0a0;
+  --simple-color: #FAF3F3;
+}
+/* body  */
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+/* navigation bar */
+.navigation {
+  background-color: var(--primary-color);
+  padding: 0.3rem;
+}
+.navigation a {
+  text-decoration: none;
+  color: var(--simple-color);
+  padding: 0.5rem 1rem;
+}
+.navigation .navigation-brand {
+  font-weight: bold;
+}
+.header-link {
+  text-align: right;
+}
+.header-link li {
+  display: inline;
+}
+.header-link .link-active {
+  font-weight: bold;
+}
+/* home page heading */
+.intro {
+  padding: 4rem 1rem;
+}
+.intro .intro-img-heading {
+  max-width: 80%;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.intro .intro-heading {
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--primary-color);
+}
+
+.intro .intro-heading .intro-heading-inverted {
+  color: var(--secondary-color);
+}
+
+.intro .intro-body {
+  text-align: center;
+}
+
+/* off white section */
+.section-off-white{
+    background-color: var(--simple-color);
+    padding: 3.5rem 0rem;
+    text-align: center;
+}
+
+.section-heading{
+    color: var(--primary-color);
+}
+.section-body{
+    padding: 1rem 7rem;
+
+}
+.section-off-white-link{
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 0.5rem 1rem;
+    color: var(--primary-color);
+    background-color: var(--simple-color);
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+}
+/* white section */
+.section-white{
+    padding: 3.5rem 0rem;
+    text-align: center;
+}
+
+.section-white-link{
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 0.5rem 1rem;
+    color: var(--simple-color);
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+}
+/* footer */
+.navigation h3{
+    color: var(--simple-color);
+    text-align: center;
+}
+.footer-link{
+    text-align: center;
+}
+.footer-link li{
+    display: inline;
+}
+
+/* projects page */
+.section-project{
+ padding: 0 12%;
+}
+.section-project-link{
+    padding-left: 0rem;
+    margin: 2rem 0rem;
+   
+}
+
+.section-project-link li{
+display: inline;
+margin-right: 1rem; 
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    width: 25rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin: 3rem auto;
+
+}
