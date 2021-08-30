@@ -142,3 +142,10 @@ hr{
   text-align: center;
 }
 
+@media (max-width:780px ){
+  .img-dev{
+    max-width: 18%;
+    height: auto;
+  margin: .5rem;
+  }
+}
