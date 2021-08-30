@@ -58,6 +58,12 @@ body {
   text-align: center;
 }
 
+.img-dev{
+  max-width: 5%;
+  height: auto;
+margin: 1.5rem;
+}
+
 /* off white section */
 .section-off-white{
     background-color: var(--simple-color);
