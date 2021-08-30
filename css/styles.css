@@ -56,7 +56,13 @@ body {
 
 .intro .intro-body {
   text-align: center;
+  padding: .5% 18%;
 }
+
+h4{
+  color: var(--primary-color);
+}
+
 
 .img-dev{
   max-width: 5%;
